@@ -13,3 +13,11 @@ function solution(a,b){
 solution(100, 100); // 9999
 solution(1, 1);     // 0
 solution(20, 50);   // 999
+
+// 분기별 일정
+function solution(month){
+    return Math.ceil(month / 3);
+}
+
+solution(4);  // 2
+solution(12); // 4
